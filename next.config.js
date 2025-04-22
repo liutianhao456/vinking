@@ -2,8 +2,16 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['localhost', 'www.vinking.site', 'vinking.site'],
-    unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'vinking.site',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.vinking.site',
+      }
+    ],
   },
   output: 'standalone',
 }
