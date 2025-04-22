@@ -73,10 +73,10 @@ export default function Home() {
             <div className="text-base tracking-widest text-emerald-700 mb-8 animate-particle-form font-medium">
               量子维京
             </div>
-            <h1 className="text-6xl font-bold tracking-wider animate-float-up delay-200">
+            <h1 className="text-6xl font-bold tracking-wider animate-particle-form delay-200">
               Quantum Viking
             </h1>
-            <h2 className="text-6xl font-bold tracking-wider animate-float-up delay-400 text-white/70 backdrop-blur-sm">
+            <h2 className="text-6xl font-bold tracking-wider animate-particle-form delay-400 text-white/70 backdrop-blur-sm">
               Digital Architect of Tomorrow
             </h2>
           </div>
@@ -91,15 +91,15 @@ export default function Home() {
           <div className="grid grid-cols-2 gap-8">
             {/* Left side - Engineering text */}
             <div className="space-y-3">
-              <p className="text-xs text-gray-500 font-medium animate-float-up">Precision Engineering</p>
+              <p className="text-xs text-gray-500 font-medium animate-particle-form">Precision Engineering</p>
               <div className="space-y-4">
-                <p className="text-xl font-semibold leading-tight animate-float-up delay-200">
+                <p className="text-xl font-semibold leading-tight animate-particle-form delay-200">
                   Tracking AI frontiers, demystifying tech complexities,
                 </p>
-                <p className="text-xl font-semibold leading-tight animate-float-up delay-400">
+                <p className="text-xl font-semibold leading-tight animate-particle-form delay-400">
                   and chronicling humanity's Singularity journey
                 </p>
-                <p className="text-xl font-semibold leading-tight animate-float-up delay-600">
+                <p className="text-xl font-semibold leading-tight animate-particle-form delay-600">
                   through dedicated AI insights
                 </p>
               </div>
@@ -111,7 +111,7 @@ export default function Home() {
                 href="https://tiktok.com" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="relative w-12 h-12 transition-all duration-500 ease-out hover:scale-[2.0] hover:-translate-y-4 hover:drop-shadow-[0_0_30px_rgba(255,255,255,0.7)] hover:bg-white/20 rounded-full p-2 animate-float-up delay-200 block cursor-pointer active:scale-75 active:rotate-12 active:drop-shadow-[0_0_50px_rgba(255,255,255,0.9)] active:translate-y-2 z-30"
+                className="relative w-12 h-12 transition-all duration-500 ease-out hover:scale-[2.0] hover:-translate-y-4 hover:drop-shadow-[0_0_30px_rgba(255,255,255,0.7)] hover:bg-white/20 rounded-full p-2 animate-particle-form delay-200 block cursor-pointer active:scale-75 active:rotate-12 active:drop-shadow-[0_0_50px_rgba(255,255,255,0.9)] active:translate-y-2 z-30"
               >
                 <Image
                   src="/tiktok.png"
@@ -126,7 +126,7 @@ export default function Home() {
                   href="https://mp.weixin.qq.com/s/Hh8v3JYbVYKQMwlxsJSvvA"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="relative w-12 h-12 transition-all duration-500 ease-out hover:scale-[2.0] hover:-translate-y-4 hover:drop-shadow-[0_0_30px_rgba(255,255,255,0.7)] hover:bg-white/20 rounded-full p-2 animate-float-up delay-400 block cursor-pointer active:scale-75 active:rotate-12 active:drop-shadow-[0_0_50px_rgba(255,255,255,0.9)] active:translate-y-2 z-30"
+                  className="relative w-12 h-12 transition-all duration-500 ease-out hover:scale-[2.0] hover:-translate-y-4 hover:drop-shadow-[0_0_30px_rgba(255,255,255,0.7)] hover:bg-white/20 rounded-full p-2 animate-particle-form delay-400 block cursor-pointer active:scale-75 active:rotate-12 active:drop-shadow-[0_0_50px_rgba(255,255,255,0.9)] active:translate-y-2 z-30"
                 >
                   <Image
                     src="/wechat.png"
@@ -174,7 +174,7 @@ export default function Home() {
                 href="https://www.xiaohongshu.com/user/profile/5c638e5f00000000110114bd" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="relative w-12 h-12 transition-all duration-500 ease-out hover:scale-[2.0] hover:-translate-y-4 hover:drop-shadow-[0_0_30px_rgba(255,255,255,0.7)] hover:bg-white/20 rounded-full p-2 animate-float-up delay-600 block cursor-pointer active:scale-75 active:rotate-12 active:drop-shadow-[0_0_50px_rgba(255,255,255,0.9)] active:translate-y-2 z-30"
+                className="relative w-12 h-12 transition-all duration-500 ease-out hover:scale-[2.0] hover:-translate-y-4 hover:drop-shadow-[0_0_30px_rgba(255,255,255,0.7)] hover:bg-white/20 rounded-full p-2 animate-particle-form delay-600 block cursor-pointer active:scale-75 active:rotate-12 active:drop-shadow-[0_0_50px_rgba(255,255,255,0.9)] active:translate-y-2 z-30"
               >
                 <Image
                   src="/xiaohongshu.png"
