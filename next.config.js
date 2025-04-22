@@ -2,18 +2,17 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'vinking.site',
-      },
-      {
-        protocol: 'https',
-        hostname: 'www.vinking.site',
-      }
-    ],
+    unoptimized: true,
+    domains: ['localhost'],
   },
   output: 'standalone',
+  webpack: (config) => {
+    config.module.rules.push({
+      test: /\.(png|jpg|gif|svg)$/i,
+      type: 'asset/resource'
+    });
+    return config;
+  },
 }
 
 module.exports = nextConfig 
