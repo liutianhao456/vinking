@@ -29,7 +29,8 @@
   ],
   "env": {
     "NODE_ENV": "production",
-    "VERCEL_URL": "vinking.site"
+    "VERCEL_URL": "vinking.site",
+    "VERCEL_IP": "76.76.21.241"
   },
   "github": {
     "silent": true
