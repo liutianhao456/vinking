@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['localhost', 'www.vinking.site'],
+    domains: ['localhost', 'www.vinking.site', 'vinking.site'],
     unoptimized: true,
   },
   output: 'standalone',
